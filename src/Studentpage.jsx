@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { FiEdit, FiTrash2, FiEye } from "react-icons/fi";
 import { database, ref, push, set, onValue, update } from "./firebase";
 import { signOut } from "firebase/auth";
